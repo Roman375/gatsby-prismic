@@ -1,0 +1,128 @@
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ 
+ 
+ // HEADER
+  .header {
+    display: flex;
+    align-items: center;
+    
+    .header__inner {
+      display: flex;
+      .logo {
+        display: flex;
+        align-items: center;
+        height: 70px;
+        font-size: 24px;
+        line-height: 36px;
+        background-color: #1a54e7;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: 'PT Sans';
+        text-align: center;
+        padding: 18px 36px 18px 0;
+      }
+      .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f6f6f6;
+        height: 70px;
+        width: 60px;
+      }
+      .nav {
+        display: flex;
+        height: 70px;
+        font-size: 18px;
+        line-height: 36px;
+        color: #1a54e7;
+        font-weight: 400;
+        font-family: 'PT Sans';
+        text-align: center;
+
+        .nav__link {
+          display: flex;
+          height: 70px;
+          align-items: center;
+          margin-left: 30px;
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 36px;
+          color: #1a54e7;
+          font-weight: 400;
+          font-family: 'PT Sans';
+          text-align: center;
+          &:hover {
+            cursor: pointer;
+            border-bottom: 3px solid;
+          }
+        }
+        .nav__link_ellipse {
+          display: flex;
+          justify-content: center;
+          height: 70px;
+          align-items: center;
+          margin-left: 30px;
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 36px;
+          color: #1a54e7;
+          font-weight: 400;
+          font-family: 'PT Sans';
+          text-align: center;
+          &:hover {
+            cursor: pointer;
+            border-bottom: 3px solid;
+          }
+          & > img {
+            margin-left: 6px;
+          }
+        }
+      }
+      .nav__pages {
+        display: flex;
+        height: 70px;
+        font-size: 18px;
+        line-height: 36px;
+        color: #1a54e7;
+        font-weight: 400;
+        font-family: 'PT Sans';
+        text-align: center;
+        margin-right: 120px;
+        .nav__pages_link {
+          display: flex;
+          height: 70px;
+          align-items: center;
+          margin-left: 30px;
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 36px;
+          color: #b2b2b2;
+          font-weight: 400;
+          font-family: 'PT Sans';
+          text-align: center;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }

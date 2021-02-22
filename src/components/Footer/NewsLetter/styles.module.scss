@@ -1,0 +1,40 @@
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// FOOTER
+.footer {
+  height: 334px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .footer__text {
+    height: 100%;
+    padding: 75px 230px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    color: #ced0d9;
+    & > a {
+      text-decoration: none;
+      color: #a7acbc;
+    }
+  }
+}

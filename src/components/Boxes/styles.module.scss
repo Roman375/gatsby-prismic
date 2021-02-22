@@ -1,0 +1,144 @@
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ 
+ // BOXES
+ .boxes {
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .boxes__item {
+    width: 33.3%;
+    padding-bottom: 20px;
+    .boxes__img1 {
+      height: 253px;
+      background: url('../../images/boxes/box1.png') center no-repeat;
+      background-size: cover;
+    }
+    .boxes__img2 {
+      height: 253px;
+      background: url('../../images/boxes/box2.png') center no-repeat;
+      background-size: cover;
+    }
+    .boxes__img3 {
+      height: 253px;
+      background: url('../../images/boxes/box3.png') center no-repeat;
+      background-size: cover;
+    }
+    .boxes__img4 {
+      height: 253px;
+      background: url('../../images/boxes/box4.png') center no-repeat;
+      background-size: cover;
+    }
+    .boxes__img5 {
+      height: 253px;
+      background: url('../../images/boxes/box5.png') center no-repeat;
+      background-size: cover;
+    }
+    .boxes__img6 {
+      height: 253px;
+      background: url('../../images/boxes/box6.png') center no-repeat;
+      background-size: cover;
+    }
+    .boxes__btn1 {
+      position: relative;
+      top: 200px;
+      width: 90px;
+      height: 40px;
+      background-color: #58b600;
+      border: 0;
+      color: #ffffff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .boxes__btn2 {
+      position: relative;
+      top: 200px;
+      width: 90px;
+      height: 40px;
+      background-color: #1a54e7;
+      border: 0;
+      color: #ffffff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .boxes__btn3 {
+      position: relative;
+      top: 200px;
+      width: 73px;
+      height: 40px;
+      background-color: #000000;
+      border: 0;
+      color: #ffffff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .boxes__btn4 {
+      position: relative;
+      top: 200px;
+      width: 73px;
+      height: 40px;
+      background-color: #d90445;
+      border: 0;
+      color: #ffffff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .boxes__btn5 {
+      position: relative;
+      top: 200px;
+      width: 73px;
+      height: 40px;
+      background-color: #d90445;
+      border: 0;
+      color: #ffffff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .boxes__btn6 {
+      position: relative;
+      top: 200px;
+      width: 100px;
+      height: 40px;
+      background-color: #8200b2;
+      border: 0;
+      color: #ffffff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .boxes__text {
+      margin-top: 15px;
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: 700;
+    }
+    .boxes__link {
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 36px;
+      color: #cac7c7;
+      font-weight: 500;
+      & > a {
+        color: #1a54e7;
+      }
+    }
+  }
+}
